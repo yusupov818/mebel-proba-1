@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #001465;
+        }
+
+        .center-page-2 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto;
+            width: 100%;
+
+            max-width: 1100px;
+
+        }
+
+
+        .top-swiper {
+            padding-bottom: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .top-1 {
+            width: 70%;
+        }
+
+        .top-2 {
+            width: 30%;
+        }
+
+        .top-1-1 {
+            width: 90%;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            height: auto;
+            font-size: 20px;
+            font-weight: 800;
+            color: white;
+        }
+
+        .top-1-icon i {
+            border-radius: 20px;
+            border: 2px solid white;
+            font-size: 20px;
+            color: white;
+            font-weight: 800;
+            padding: 3px;
+        }
+
+        .top-1-2 {
+            display: flex;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        .top-1-txt {
+            width: 50%;
+        }
+
+        /* .top-1-img {
+
+            width: 30%;
+        } */
+
+        .ustiga-top-rasm {
+            position: absolute;
+            width: 18%;
+            padding: 25px;
+
+            color: white;
+            top: 110px;
+        }
+
+        .ustiga-top {
+            align-items: center;
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+
+        }
+
+        .hover-top-2 {
+            transition: 0.2s;
+            padding: 8px;
+            border-radius: 25px;
+            border: 0.5px solid white;
+            font-weight: 700;
+        }
+
+        .hover-top-2:hover {
+            background-color: red;
+
+        }
+
+        .top-1-img img {
+            position: relative;
+            width: 326px;
+            height: 233px;
+        }
+
+        .num-1 {
+            color: white;
+            font-weight: 700;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .num-2 {
+            color: red;
+            font-size: 20px;
+            font-weight: 700;
+            padding: 2px 10px 10px 10px;
+        }
+
+        .num-3 {
+            font-size: 15px;
+            color: white;
+            padding: 5px 10px 10px 10px;
+        }
+
+        .num-4 {
+            justify-content: flex-start;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            color: white;
+            width: 80%;
+        }
+
+        .num-4 span {
+            text-align: center;
+            width: 55px;
+            padding: 10px;
+            border: 1px solid gray;
+        }
+
+        .num-5 {
+            padding: 10px;
+        }
+
+        .num-5 button {
+            border-radius: 5px;
+            border: none;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            background-color: red;
+            color: white;
+            padding: 10px;
+
+
+        }
+
+        /* top-2 */
+
+        .top-2 img {
+            width: 100%;
+        }
+
+        #top-2-2 {
+            display: flex;
+        }
+
+        .num-6 {
+            width: 77%;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            height: auto;
+            font-size: 20px;
+            font-weight: 800;
+            color: white;
+        }
+
+        .num-7 {
+            width: 40%;
+        }
+
+        .num-8 {
+            padding: 5px;
+            color: white;
+        }
+
+        .num-8-1 {
+            font-weight: 700;
+            font-size: 12px;
+        }
+
+        .num-8-2 {
+            font-weight: 700;
+            font-size: 15px;
+            color: red;
+        }
+
+        .num-8-3 {
+
+            font-size: 15px;
+            color: grey;
+        }
+
+        swiper-container {
+            width: 99.9%;
+           
+
+        }
+
+        swiper-slide {
+            height: 460px;
+            margin: 0%;
+            
+
+        }
+
+        swiper-slide img {
+            width: 336px;
+            height: 50%;
+        }
+
+        .bot-1 {
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            font-size: 20px;
+            font-weight: 800;
+            color: white;
+        }
+
+        #bot-txt {
+            height: 450px;
+            margin-top: -20px;
+            width: 336px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .bot-txt {
+            text-align: start;
+            padding: 15px;
+            color: rgb(82, 82, 82);
+            font-size: 15px;
+        }
+      .bot-txt button{
+        background-color: red;
+        border: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7px;
+        font-weight: 700;
+        font-size: 15px;
+        border-radius: 5px;
+      }
+      .bot-icon i {
+            border-radius: 20px;
+            border: 2px solid white;
+            font-size: 20px;
+            color: white;
+            font-weight: 800;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="center-page-2">
+
+        <div class="top-swiper">
+
+            <div class="top-1">
+
+                <div class="top-1-1">
+
+                    <div>СУПЕР ВЫГОДНЫЕ ПРЕДЛОЖЕНИЯ</div>
+                    <div class="top-1-icon">
+                        <i class="lni lni-chevron-left"></i>
+                        <i class="lni lni-chevron-right"></i>
+                    </div>
+
+                </div>
+                <div style="width: 90%; padding: 15px 0;">
+                    <hr>
+                </div>
+                <!--  -->
+                <div class="top-1-2">
+
+                    <div class="top-1-img">
+                        <img src="image/spalny.jpg" alt="">
+                        <div class="ustiga-top-rasm">
+                            <div class="ustiga-top">
+                                <div class="hover-top"
+                                    style="background: red; padding:10px; border-radius: 25px; height: auto;">15%</div>
+                                <div class="hover-top-2"><i class="lni lni-search-alt"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-1-txt">
+                        <div class="num-1">
+                            Горка "ВИНЕТА"
+                        </div>
+                        <div class="num-2">
+                            3 550 0000 <span style="padding: 20px; color: gray; font-weight: 500; font-size: 17px;">4
+                                100 000</span>
+                        </div>
+                        <div class="num-3">
+                            до конца акции осталось:
+                        </div>
+                        <div class="num-4">
+                            <span style="border-radius: 5px 0 0 5px; font-weight:700;">0 день</span>
+                            <span style="font-weight:700;">0 ч</span>
+                            <span style="font-weight:700;">0 мин</span>
+                            <span style="border-radius:0 5px 5px 0; font-weight:700;">00 сек</span>
+                        </div>
+                        <div class="num-5">
+                            <button>перейти
+                                <i class="lni lni-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--  -->
+            <div class="top-2">
+
+                <div class="num-6">
+                    В НАЛИЧИИ:
+
+                </div>
+
+                <div style="width: 90%; padding:  15px 0;">
+                    <hr>
+                </div>
+                <div id="top-2-2">
+                    <div class="num-7">
+                        <div><img src="image/ofis.jpg" alt=""></div>
+
+                    </div>
+                    <div class="num-8">
+                        <div class="num-8-1">гостинца "Аризона"</div>
+                        <div class="num-8-2">3 250 000 sum</div>
+                        <div class="num-8-3">3 250 000 sum</div>
+                    </div>
+                    <div class="num-9">
+                        <i class="lni lni-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--  -->
+        <div class="bottom-swiper">
+
+
+            <div class="bot-1">
+                <div class="name-bot"><span>ПОПУЛЯРНОЕ</span></div>
+                <div class="bot-icon">
+                    <i class="lni lni-chevron-left"></i>
+                    <i class="lni lni-chevron-right"></i>
+                </div>
+                
+            </div>
+            <div style="padding: 15px;"><hr></div>
+            <div class="bot-2">
+                <swiper-container class="mySwiper" watch-slides-progress="true" slides-per-view="3">
+                    <swiper-slide>
+                        <img src="image/detsky.jpg" alt="">
+                        <div id="bot-txt">
+                            <div class="bot-txt">
+                                <div>
+                                    <p style="font-weight: 700; font-size: 20px; color: black;">спалная "ЭЛИГИЯ"</p>
+                                    <p>Ширина:</p>
+                                    <p>Высота:</p>
+                                    <p>Старая цена: 14 500 000</p>
+                                    <p>Цена: 13 350 000</p>
+                                    <button>перейти<i class="lni lni-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide><img src="image/detsky.jpg" alt="">
+                        <div id="bot-txt">
+                            <div class="bot-txt">
+                                <div>
+                                    <p style="font-weight: 700; font-size: 20px; color: black;">спалная "ЭЛИГИЯ"</p>
+                                    <p>Ширина:</p>
+                                    <p>Высота:</p>
+                                    <p>Старая цена: 14 500 000</p>
+                                    <p>Цена: 13 350 000</p>
+                                    <button>перейти<i class="lni lni-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide><img src="image/detsky.jpg" alt="">
+                        <div id="bot-txt">
+                            <div class="bot-txt">
+                                <div>
+                                    <p style="font-weight: 700; font-size: 20px; color: black;">спалная "ЭЛИГИЯ"</p>
+                                    <p>Ширина:</p>
+                                    <p>Высота:</p>
+                                    <p>Старая цена: 14 500 000</p>
+                                    <p>Цена: 13 350 000</p>
+                                    <button>перейти<i class="lni lni-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide><img src="image/detsky.jpg" alt="">
+                        <div id="bot-txt">
+                            <div class="bot-txt">
+                                <div>
+                                    <p style="font-weight: 700; font-size: 20px; color: black;">спалная "ЭЛИГИЯ"</p>
+                                    <p>Ширина:</p>
+                                    <p>Высота:</p>
+                                    <p>Старая цена: 14 500 000</p>
+                                    <p>Цена: 13 350 000</p>
+                                    <button>перейти<i class="lni lni-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide><img src="image/detsky.jpg" alt="">
+                        <div id="bot-txt">
+                            <div class="bot-txt">
+                                <div>
+                                    <p style="font-weight: 700; font-size: 20px; color: black;">спалная "ЭЛИГИЯ"</p>
+                                    <p>Ширина:</p>
+                                    <p>Высота:</p>
+                                    <p>Старая цена: 14 500 000</p>
+                                    <p>Цена: 13 350 000</p>
+                                    <button>перейти<i class="lni lni-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide><img src="image/detsky.jpg" alt="">
+                        <div id="bot-txt">
+                            <div class="bot-txt">
+                                <div>
+                                    <p style="font-weight: 700; font-size: 20px; color: black;">спалная "ЭЛИГИЯ"</p>
+                                    <p>Ширина:</p>
+                                    <p>Высота:</p>
+                                    <p>Старая цена: 14 500 000</p>
+                                    <p>Цена: 13 350 000</p>
+                                    <button>перейти<i class="lni lni-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide><img src="image/detsky.jpg" alt="">
+                        <div id="bot-txt">
+                            <div class="bot-txt">
+                                <div>
+                                    <p style="font-weight: 700; font-size: 20px; color: black;">спалная "ЭЛИГИЯ"</p>
+                                    <p>Ширина:</p>
+                                    <p>Высота:</p>
+                                    <p>Старая цена: 14 500 000</p>
+                                    <p>Цена: 13 350 000</p>
+                                    <button>перейти<i class="lni lni-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide><img src="image/detsky.jpg" alt="">
+                        <div id="bot-txt">
+                            <div class="bot-txt">
+                                <div>
+                                    <p style="font-weight: 700; font-size: 20px; color: black;">спалная "ЭЛИГИЯ"</p>
+                                    <p>Ширина:</p>
+                                    <p>Высота:</p>
+                                    <p>Старая цена: 14 500 000</p>
+                                    <p>Цена: 13 350 000</p>
+                                    <button>перейти<i class="lni lni-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
